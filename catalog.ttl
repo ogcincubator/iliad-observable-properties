@@ -1,0 +1,19 @@
+@prefix dcfg: <http://www.example.org/ogc/domain-cfg#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
+
+_:catalog a dcat:Catalog ;
+  dct:title "ILIAD Observable Properties" ;
+  dcat:dataset _:op ;
+  dcfg:hasProfileSource "sparql:http://defs-dev.opengis.net:8080/rdf4j-server/repositories/ogc-na";
+  dcfg:ignoreProfileArtifactErrors true ;
+.
+
+_:op a dcfg:DomainConfiguration ;
+  dcfg:localPath "." ;
+  dcfg:glob "iliad-*.ttl" ;
+  dcfg:uriRootFilter "/iliad/" ;
+  dct:conformsTo profiles:vocprez_ogc, profiles:skos_conceptscheme, profiles:skos_conceptscheme_ogc, profiles:owl2skos ;
+.
