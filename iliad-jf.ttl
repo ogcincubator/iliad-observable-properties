@@ -1,0 +1,10 @@
+@prefix iliad-jf: <http://w3id.org/iliad/jellyfish/property/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://w3id.org/iliad/jellyfish/property> a skos:ConceptScheme ;
+    skos:prefLabel "Jellyfish-related observable properties" ;
+.
+
+iliad-jf:jellyFishAbundanceProperty a skos:Concept ;
+  skos:prefLabel "Jellyfish abundance" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
