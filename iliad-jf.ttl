@@ -5,6 +5,13 @@
     skos:prefLabel "Jellyfish-related observable properties" ;
 .
 
+iliad-jf:BiodiversityProperty a skos:Concept ;
+  skos:prefLabel "Biodiversity" ;
+  skos:definition "An abstract property relating to biodiversity" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
 iliad-jf:jellyFishAbundanceProperty a skos:Concept ;
   skos:prefLabel "Jellyfish abundance" ;
+  skos:broader iliad-jf:BiodiversityProperty ;
+  skos:definition "Abundance of Jellyfish individuals of the observed species as visual estimate per m2" ;
   skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
