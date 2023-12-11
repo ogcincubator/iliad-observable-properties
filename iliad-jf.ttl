@@ -13,5 +13,35 @@ iliad-jf:BiodiversityProperty a skos:Concept ;
 iliad-jf:jellyFishAbundanceProperty a skos:Concept ;
   skos:prefLabel "Jellyfish abundance" ;
   skos:broader iliad-jf:BiodiversityProperty ;
-  skos:definition "Abundance of Jellyfish individuals of the observed species as visual estimate per m2" ;
+  skos:definition "Observation of quantities and qualities of jellyfish swarm." ;
   skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
+iliad-jf:densityOfJF 
+ a skos:Concept ;
+  skos:prefLabel "Jellyfish Density" ;
+  skos:broader iliad-jf:jellyFishAbundanceProperty ;
+  skos:definition "Visual impression of density of jellyfish individuals of the observed species" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
+iliad-jf:quantityOfJF 
+ a skos:Concept ;
+  skos:prefLabel "Jellyfish Quantity" ;
+  skos:broader iliad-jf:jellyFishAbundanceProperty ;
+  skos:definition "Count of Jellyfish individuals of the observed species as visual estimate per m2" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
+iliad-jf:stingByJF 
+ a skos:Concept ;
+  skos:prefLabel "Jellyfish Sting Category" ;
+  skos:broader iliad-jf:jellyFishAbundanceProperty ;
+  skos:definition "TBD" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
+iliad-jf:beachedJF 
+ a skos:Concept ;
+  skos:prefLabel "Jellyfish Beached Count" ;
+  skos:broader iliad-jf:jellyFishAbundanceProperty ;
+  skos:definition "TBD" ;
+  skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
+
+
