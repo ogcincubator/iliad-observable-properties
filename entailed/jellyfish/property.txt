@@ -6,11 +6,11 @@ Conforms: True
 Validation Report
 Conforms: True
 
-=== conceptscheme (http://www.opengis.net/def/metamodel/profiles/skos_conceptscheme) ===
+=== vocprez (http://www.opengis.net/def/metamodel/profiles/vocprez_ogc) ===
 Validation Report
 Conforms: True
 
-=== vocprez (http://www.opengis.net/def/metamodel/profiles/vocprez_ogc) ===
+=== conceptscheme (http://www.opengis.net/def/metamodel/profiles/skos_conceptscheme) ===
 Validation Report
 Conforms: True
 

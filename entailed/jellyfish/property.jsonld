@@ -1,545 +1,22 @@
 [
   {
-    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.rdf",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "application/rdf+xml"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAttributedTo": [
-      {
-        "@id": "_:Nea16414581ce40a2b366699b18765d58"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasGeneratedBy": [
-      {
-        "@id": "_:N1dbb7aae809741159f0e76d70121654d"
-      }
-    ]
-  },
-  {
-    "@id": "_:N1dbb7aae809741159f0e76d70121654d",
-    "@type": [
-      "http://www.w3.org/ns/prov#Activity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Entailment and validation"
-      }
-    ],
-    "http://www.w3.org/ns/prov#endedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:03.080437"
-      }
-    ],
-    "http://www.w3.org/ns/prov#startedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:00.985735"
-      }
-    ],
-    "http://www.w3.org/ns/prov#used": [
-      {
-        "@id": "_:N458514a4d5334f5e959672ab2b99419a"
-      },
-      {
-        "@id": "_:Nd7b22aecba514c06be45d8aa9b316c90"
-      },
-      {
-        "@id": "_:N1686240162774ee099cb584723010c44"
-      },
-      {
-        "@id": "_:Nb68415e66bf943b2947bf0b4b9d24090"
-      },
-      {
-        "@id": "_:N86e7860850fa48219f1b792781d1c573"
-      },
-      {
-        "@id": "_:Nbb22aa22e1e54c88a2014b1beb332713"
-      },
-      {
-        "@id": "_:Nddfe977079434f25aae7f882bd20f878"
-      },
-      {
-        "@id": "_:Nd1f70dbb71b845d8a9ed77efa2cd5eb2"
-      },
-      {
-        "@id": "_:Nd4cc41fc4ccc4b82a994d38105d2417e"
-      },
-      {
-        "@id": "_:N67c6f0e5dd494dfc8483852468c747ee"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAssociatedWith": [
-      {
-        "@id": "_:Nea16414581ce40a2b366699b18765d58"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasInformedBy": [
-      {
-        "@id": "_:N9d728983677e4a7682beb75ef8b40b61"
-      }
-    ]
-  },
-  {
-    "@id": "_:N458514a4d5334f5e959672ab2b99419a",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nd7b22aecba514c06be45d8aa9b316c90",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
-      }
-    ]
-  },
-  {
-    "@id": "_:N1686240162774ee099cb584723010c44",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nb68415e66bf943b2947bf0b4b9d24090",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N86e7860850fa48219f1b792781d1c573",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nbb22aa22e1e54c88a2014b1beb332713",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nddfe977079434f25aae7f882bd20f878",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nd1f70dbb71b845d8a9ed77efa2cd5eb2",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nd4cc41fc4ccc4b82a994d38105d2417e",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N67c6f0e5dd494dfc8483852468c747ee",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://datashapes.org/dash.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N9d728983677e4a7682beb75ef8b40b61",
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "2eb74f01-93cf-4f2a-ae7f-42f5c5c18238"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nea16414581ce40a2b366699b18765d58",
-    "@type": [
-      "https://schema.org/SoftwareApplication",
-      "http://www.w3.org/ns/prov#Agent"
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "ogc.na.update_vocabs version 0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "OGC-NA tools"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://github.com/opengeospatial/ogc-na-tools"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.opengis.net/def/entities/bodies/ogcna",
+    "@id": "http://w3id.org/iliad/jellyfish/property/stingByJF",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
-    ]
-  },
-  {
-    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.ttl",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
     ],
-    "http://purl.org/dc/terms/format": [
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
       {
-        "@value": "text/turtle"
+        "@id": "http://www.opengis.net/def/status/valid"
       }
     ],
-    "http://purl.org/dc/terms/hasVersion": [
+    "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAttributedTo": [
-      {
-        "@id": "_:N9ac5a4482dff48848ed3567543a3e840"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasGeneratedBy": [
-      {
-        "@id": "_:N8d61a73840f0400c95ca249b4de3e13a"
-      }
-    ]
-  },
-  {
-    "@id": "_:N8d61a73840f0400c95ca249b4de3e13a",
-    "@type": [
-      "http://www.w3.org/ns/prov#Activity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Entailment and validation"
-      }
-    ],
-    "http://www.w3.org/ns/prov#endedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:03.059345"
-      }
-    ],
-    "http://www.w3.org/ns/prov#startedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:00.985735"
-      }
-    ],
-    "http://www.w3.org/ns/prov#used": [
-      {
-        "@id": "_:Nb1977466a445409095fb1b5637908caa"
-      },
-      {
-        "@id": "_:Na0c1cb284cb24597a574e19b0850a3c4"
-      },
-      {
-        "@id": "_:Ndbbc5842f6234bc98642effb6e42cf9a"
-      },
-      {
-        "@id": "_:N4a96f4d438a54698a8e36070d758e376"
-      },
-      {
-        "@id": "_:Nd5eadc870b0a40a290fc782b53d431e6"
-      },
-      {
-        "@id": "_:N6703aa57821d49238945372f4cf28520"
-      },
-      {
-        "@id": "_:Nad7de47978484701bb209aad5078aae9"
-      },
-      {
-        "@id": "_:Ndb18d42924b748d89c3236d6f58c1b74"
-      },
-      {
-        "@id": "_:N13c48b97d175495fabf77e03163b0aad"
-      },
-      {
-        "@id": "_:Ndf1121d1c3244eb6b01af0e667e40521"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAssociatedWith": [
-      {
-        "@id": "_:N9ac5a4482dff48848ed3567543a3e840"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasInformedBy": [
-      {
-        "@id": "_:Nf7fc08ce1fc34c60ad3b1faa011bc6b8"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nb1977466a445409095fb1b5637908caa",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://datashapes.org/dash.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Na0c1cb284cb24597a574e19b0850a3c4",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ndbbc5842f6234bc98642effb6e42cf9a",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N4a96f4d438a54698a8e36070d758e376",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nd5eadc870b0a40a290fc782b53d431e6",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N6703aa57821d49238945372f4cf28520",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nad7de47978484701bb209aad5078aae9",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ndb18d42924b748d89c3236d6f58c1b74",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
-      }
-    ]
-  },
-  {
-    "@id": "_:N13c48b97d175495fabf77e03163b0aad",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ndf1121d1c3244eb6b01af0e667e40521",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N9ac5a4482dff48848ed3567543a3e840",
-    "@type": [
-      "https://schema.org/SoftwareApplication",
-      "http://www.w3.org/ns/prov#Agent"
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "ogc.na.update_vocabs version 0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "OGC-NA tools"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://github.com/opengeospatial/ogc-na-tools"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nf7fc08ce1fc34c60ad3b1faa011bc6b8",
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "2eb74f01-93cf-4f2a-ae7f-42f5c5c18238"
-      }
-    ]
-  },
-  {
-    "@id": "http://w3id.org/iliad/jellyfish/property/",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://purl.org/dc/terms/provenance": [
-      {
-        "@value": "Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl"
+        "@id": "http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Collection hierarchy for this ConceptScheme"
+        "@value": "TBD"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -549,295 +26,14 @@
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
-        "@value": "Concepts in Jellyfish-related observable properties"
+        "@value": "Jellyfish Sting Category"
       }
     ]
   },
   {
-    "@id": "http://w3id.org/iliad/jellyfish/property",
+    "@id": "http://www.opengis.net/def/entities/bodies/ogcna",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/source": [
-      {
-        "@id": "http://www.opengis.net/def/entities/bodies/ogcna"
-      }
-    ],
-    "http://www.opengis.net/def/metamodel/ogc-na/collectionView": [
-      {
-        "@id": "http://w3id.org/iliad/jellyfish/property/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@value": "Jellyfish-related observable properties"
-      }
-    ]
-  },
-  {
-    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.jsonld",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "application/ld+json"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAttributedTo": [
-      {
-        "@id": "_:N6bbcc93917034b668b3f2f72e380a98f"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasGeneratedBy": [
-      {
-        "@id": "_:Nca21b8c69a5647938a1575f81851e619"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nca21b8c69a5647938a1575f81851e619",
-    "@type": [
-      "http://www.w3.org/ns/prov#Activity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "Entailment and validation"
-      }
-    ],
-    "http://www.w3.org/ns/prov#endedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:03.101783"
-      }
-    ],
-    "http://www.w3.org/ns/prov#startedAtTime": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-        "@value": "2023-12-08T10:54:00.985735"
-      }
-    ],
-    "http://www.w3.org/ns/prov#used": [
-      {
-        "@id": "_:N2a35f48c02ab4debb0de664b4d404741"
-      },
-      {
-        "@id": "_:N4828e96327a24ba09fc915116d19cf60"
-      },
-      {
-        "@id": "_:Nf84b31e14396469da5fe7037f70716c2"
-      },
-      {
-        "@id": "_:N1398404fc1b043cfad28b59cc49607c6"
-      },
-      {
-        "@id": "_:Nca9be113225a4e55b3467b7345f1276e"
-      },
-      {
-        "@id": "_:N5829c5fc8a824dbda92f9685e8c82b81"
-      },
-      {
-        "@id": "_:N5204274c670e4a0f9f281347138951dd"
-      },
-      {
-        "@id": "_:N45de12b651614ab18659135d6f84fc0f"
-      },
-      {
-        "@id": "_:N1ec6062961c545058f58c4c7c2c531bf"
-      },
-      {
-        "@id": "_:N425a159b44cc405bb374187ccb24823d"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasAssociatedWith": [
-      {
-        "@id": "_:N6bbcc93917034b668b3f2f72e380a98f"
-      }
-    ],
-    "http://www.w3.org/ns/prov#wasInformedBy": [
-      {
-        "@id": "_:N93a12e47a27b4959b9de4d01b7cd52f6"
-      }
-    ]
-  },
-  {
-    "@id": "_:N2a35f48c02ab4debb0de664b4d404741",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N4828e96327a24ba09fc915116d19cf60",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://purl.org/dc/terms/format": [
-      {
-        "@value": "text/turtle"
-      }
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "git:4cbb287202a078c2d684d4b5ba2da9a38fdb7f85"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nf84b31e14396469da5fe7037f70716c2",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N1398404fc1b043cfad28b59cc49607c6",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:Nca9be113225a4e55b3467b7345f1276e",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N5829c5fc8a824dbda92f9685e8c82b81",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N5204274c670e4a0f9f281347138951dd",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://datashapes.org/dash.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N45de12b651614ab18659135d6f84fc0f",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
-      }
-    ]
-  },
-  {
-    "@id": "_:N1ec6062961c545058f58c4c7c2c531bf",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
-      }
-    ]
-  },
-  {
-    "@id": "_:N425a159b44cc405bb374187ccb24823d",
-    "@type": [
-      "http://www.w3.org/ns/prov#Entity"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
-      }
-    ]
-  },
-  {
-    "@id": "_:N93a12e47a27b4959b9de4d01b7cd52f6",
-    "http://purl.org/dc/terms/identifier": [
-      {
-        "@value": "2eb74f01-93cf-4f2a-ae7f-42f5c5c18238"
-      }
-    ]
-  },
-  {
-    "@id": "_:N6bbcc93917034b668b3f2f72e380a98f",
-    "@type": [
-      "http://www.w3.org/ns/prov#Agent",
-      "https://schema.org/SoftwareApplication"
-    ],
-    "http://purl.org/dc/terms/hasVersion": [
-      {
-        "@value": "0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "ogc.na.update_vocabs version 0.3.29"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "OGC-NA tools"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://github.com/opengeospatial/ogc-na-tools"
-      }
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ]
   },
   {
@@ -877,6 +73,934 @@
     ]
   },
   {
+    "@id": "http://w3id.org/iliad/jellyfish/property/",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Collection hierarchy for this ConceptScheme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Concepts in Jellyfish-related observable properties"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.ttl",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:N6c2a8059884548f8a905633d17cc3518"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:N2252d96feb994bb2afd02eca754ca9bb"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2252d96feb994bb2afd02eca754ca9bb",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:50.928814"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:48.665724"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:N1098b9b9f9c14ea297bb200be42cb84c"
+      },
+      {
+        "@id": "_:Na049648c43ea4ea2ad72317a9f855ef5"
+      },
+      {
+        "@id": "_:N15f59a7fcb73419c8c16368e9e051a22"
+      },
+      {
+        "@id": "_:N59f0f4175f6e4fab897a2d2904ce169d"
+      },
+      {
+        "@id": "_:Nc6a1f79e23454018926d1a04930914b4"
+      },
+      {
+        "@id": "_:N0f3b6b5b3bb54ce58f5e6c35c47f3b78"
+      },
+      {
+        "@id": "_:N3e34299edc9842b9be27ecff3af6eea2"
+      },
+      {
+        "@id": "_:N8505199360ae4d539f5910894da24565"
+      },
+      {
+        "@id": "_:N6646231e7d6e4f789e41e1922093af3d"
+      },
+      {
+        "@id": "_:N5b6a3f636c544e27a9ceacafbb28beea"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:N6c2a8059884548f8a905633d17cc3518"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:N57ae397c7ecd4ffb9fc1f7abc2457a96"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1098b9b9f9c14ea297bb200be42cb84c",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na049648c43ea4ea2ad72317a9f855ef5",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N15f59a7fcb73419c8c16368e9e051a22",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N59f0f4175f6e4fab897a2d2904ce169d",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc6a1f79e23454018926d1a04930914b4",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0f3b6b5b3bb54ce58f5e6c35c47f3b78",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3e34299edc9842b9be27ecff3af6eea2",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8505199360ae4d539f5910894da24565",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6646231e7d6e4f789e41e1922093af3d",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5b6a3f636c544e27a9ceacafbb28beea",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c2a8059884548f8a905633d17cc3518",
+    "@type": [
+      "https://schema.org/SoftwareApplication",
+      "http://www.w3.org/ns/prov#Agent"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "_:N57ae397c7ecd4ffb9fc1f7abc2457a96",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "3e348e99-6624-44bd-b2e9-283d9207134f"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/iliad/jellyfish/property/beachedJF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "TBD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Jellyfish Beached Count"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.rdf",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/rdf+xml"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:Nbd615a7681164b9eb3dffc1d356a2948"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:N7437fbbab6484c0f9ef58c6a4d70ac05"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7437fbbab6484c0f9ef58c6a4d70ac05",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:50.952802"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:48.665724"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:Na90e131f44b44341950ce55ce81b0fff"
+      },
+      {
+        "@id": "_:N752e7d63baed42378963b2fb69a7a9fb"
+      },
+      {
+        "@id": "_:N22c303d5fa934318b65b9d28409fca44"
+      },
+      {
+        "@id": "_:Nf1cbc6b10d0e43a5a83124aff0570cf2"
+      },
+      {
+        "@id": "_:N399907b7d72e4afa89ff578668091680"
+      },
+      {
+        "@id": "_:N6f564499f7004d699fe17ab45c6c97c5"
+      },
+      {
+        "@id": "_:Na2525b50106049ecb8a61e8d4295a0dc"
+      },
+      {
+        "@id": "_:N9a40e387eaa34b25a9d9d5b977bf7748"
+      },
+      {
+        "@id": "_:N86583a004d66429380934bfc03d58ae5"
+      },
+      {
+        "@id": "_:Nf3e13322dd7b4e398be095b8090b585b"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:Nbd615a7681164b9eb3dffc1d356a2948"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:N6050947388254beba6bc535ea3f3d933"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na90e131f44b44341950ce55ce81b0fff",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N752e7d63baed42378963b2fb69a7a9fb",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N22c303d5fa934318b65b9d28409fca44",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf1cbc6b10d0e43a5a83124aff0570cf2",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N399907b7d72e4afa89ff578668091680",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6f564499f7004d699fe17ab45c6c97c5",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na2525b50106049ecb8a61e8d4295a0dc",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9a40e387eaa34b25a9d9d5b977bf7748",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N86583a004d66429380934bfc03d58ae5",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf3e13322dd7b4e398be095b8090b585b",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbd615a7681164b9eb3dffc1d356a2948",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent",
+      "https://schema.org/SoftwareApplication"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6050947388254beba6bc535ea3f3d933",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "3e348e99-6624-44bd-b2e9-283d9207134f"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/iliad/jellyfish/property",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://www.opengis.net/def/entities/bodies/ogcna"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/collectionView": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Jellyfish-related observable properties"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/iliad/jellyfish/property/densityOfJF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Visual impression of density of jellyfish individuals of the observed species"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Jellyfish Density"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.jsonld",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:N768d2e26a71343f9b7463ecab06de106"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:N3fd421e96d4746619f00eb68617d1822"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3fd421e96d4746619f00eb68617d1822",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:50.974590"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2023-12-11T09:21:48.665724"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:Nabb93f70b56b45749cf184b269ec0191"
+      },
+      {
+        "@id": "_:N6c15b754ebf149a3b8a31ead8bf72e0f"
+      },
+      {
+        "@id": "_:N7232501ef5e74d12901c4f205cd9b198"
+      },
+      {
+        "@id": "_:Nca9c527f25f844e48704c1f1eda3df79"
+      },
+      {
+        "@id": "_:N51220bc13b154ebdb0901655d5c05312"
+      },
+      {
+        "@id": "_:Nd9e1d4bcd6524dd9a2562b7d83b16b29"
+      },
+      {
+        "@id": "_:N1e6bb289da144aa98deeb8c1e4ec154e"
+      },
+      {
+        "@id": "_:N8f7c58c5b5ba470b9aa2eb84598e91fc"
+      },
+      {
+        "@id": "_:N095ccb0bd4354fcbb0febd26ead96ff0"
+      },
+      {
+        "@id": "_:N6f7bd76c27284b0ab387bc7d1eebe94c"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:N768d2e26a71343f9b7463ecab06de106"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:Ndce741298ae948c2803c1fe356863154"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nabb93f70b56b45749cf184b269ec0191",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c15b754ebf149a3b8a31ead8bf72e0f",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7232501ef5e74d12901c4f205cd9b198",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nca9c527f25f844e48704c1f1eda3df79",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N51220bc13b154ebdb0901655d5c05312",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd9e1d4bcd6524dd9a2562b7d83b16b29",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1e6bb289da144aa98deeb8c1e4ec154e",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8f7c58c5b5ba470b9aa2eb84598e91fc",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N095ccb0bd4354fcbb0febd26ead96ff0",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6f7bd76c27284b0ab387bc7d1eebe94c",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndce741298ae948c2803c1fe356863154",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "3e348e99-6624-44bd-b2e9-283d9207134f"
+      }
+    ]
+  },
+  {
+    "@id": "_:N768d2e26a71343f9b7463ecab06de106",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent",
+      "https://schema.org/SoftwareApplication"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.31"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/iliad/jellyfish/property/quantityOfJF",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Count of Jellyfish individuals of the observed species as visual estimate per m2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Jellyfish Quantity"
+      }
+    ]
+  },
+  {
     "@id": "http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -893,12 +1017,26 @@
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@value": "Abundance of Jellyfish individuals of the observed species as visual estimate per m2"
+        "@value": "Observation of quantities and qualities of jellyfish swarm."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
         "@id": "http://w3id.org/iliad/jellyfish/property"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/beachedJF"
+      },
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/stingByJF"
+      },
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/quantityOfJF"
+      },
+      {
+        "@id": "http://w3id.org/iliad/jellyfish/property/densityOfJF"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
