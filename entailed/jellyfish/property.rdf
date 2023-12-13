@@ -7,236 +7,263 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="N59f0f4175f6e4fab897a2d2904ce169d">
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"/>
+  <rdf:Description rdf:nodeID="Nac7898c10f954bc1918fd8acc07a4292">
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"/>
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
     <dcterms:format>text/turtle</dcterms:format>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/quantityOfJF">
-    <skos:prefLabel>Jellyfish Quantity</skos:prefLabel>
-    <skos:definition>Count of Jellyfish individuals of the observed species as visual estimate per m2</skos:definition>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/densityOfJF/None">
     <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <skos:prefLabel>None</skos:prefLabel>
+    <skos:definition>No individuals present</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N2252d96feb994bb2afd02eca754ca9bb">
-    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-11T09:21:48.665724</prov:startedAtTime>
-    <prov:used rdf:nodeID="N1098b9b9f9c14ea297bb200be42cb84c"/>
-    <prov:used rdf:nodeID="N15f59a7fcb73419c8c16368e9e051a22"/>
-    <prov:used rdf:nodeID="N59f0f4175f6e4fab897a2d2904ce169d"/>
-    <prov:used rdf:nodeID="Nc6a1f79e23454018926d1a04930914b4"/>
-    <prov:used rdf:nodeID="N0f3b6b5b3bb54ce58f5e6c35c47f3b78"/>
-    <prov:used rdf:nodeID="N3e34299edc9842b9be27ecff3af6eea2"/>
-    <prov:used rdf:nodeID="N8505199360ae4d539f5910894da24565"/>
-    <prov:used rdf:nodeID="Na049648c43ea4ea2ad72317a9f855ef5"/>
-    <prov:used rdf:nodeID="N6646231e7d6e4f789e41e1922093af3d"/>
-    <prov:used rdf:nodeID="N5b6a3f636c544e27a9ceacafbb28beea"/>
-    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-11T09:21:50.928814</prov:endedAtTime>
-    <prov:wasAssociatedWith rdf:nodeID="N6c2a8059884548f8a905633d17cc3518"/>
-    <rdfs:comment>python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,</rdfs:comment>
-    <prov:wasInformedBy rdf:nodeID="N57ae397c7ecd4ffb9fc1f7abc2457a96"/>
-    <rdfs:label>Entailment and validation</rdfs:label>
+  <rdf:Description rdf:nodeID="N1d0ae87a6be546eebbc7a29c73f57259">
+    <prov:used rdf:nodeID="N2e3a6e2419b1491f8e2c5490cf28d53a"/>
+    <prov:used rdf:nodeID="Ncb9962509cf04536bc68b4c6c1f41af9"/>
+    <prov:used rdf:nodeID="N57ddc193c8164058b15d1665ec85a07f"/>
+    <prov:used rdf:nodeID="Ncd2eeec465874680af52737f96e0007e"/>
+    <prov:used rdf:nodeID="N64d3457599ad466a9e1c220c01dd5929"/>
+    <prov:used rdf:nodeID="N31975b29333849c796dbe1d2018bb2e6"/>
+    <prov:used rdf:nodeID="N2a2849bd862e46d68aff715cc4df7d87"/>
+    <prov:used rdf:nodeID="Na85fd03093f14170bf959cfdabdff9ff"/>
+    <prov:used rdf:nodeID="N916f23d034534fddbad74bc21f4d4288"/>
+    <prov:used rdf:nodeID="Nac7898c10f954bc1918fd8acc07a4292"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:wasAssociatedWith rdf:nodeID="Nf02c1ad31d7a4ae6aad434ad6d308ce9"/>
+    <prov:wasInformedBy rdf:nodeID="Nb029808bc4c94ca084ec8e85c290f9b9"/>
+    <rdfs:label>Entailment and validation</rdfs:label>
+    <rdfs:comment>python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m .gitignore,iliad-jf.ttl,</rdfs:comment>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-13T08:34:45.467595</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-13T08:34:49.298794</prov:endedAtTime>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na049648c43ea4ea2ad72317a9f855ef5">
+  <rdf:Description rdf:nodeID="N2a2849bd862e46d68aff715cc4df7d87">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N6c2a8059884548f8a905633d17cc3518">
-    <dcterms:hasVersion>0.3.31</dcterms:hasVersion>
-    <rdfs:comment>ogc.na.update_vocabs version 0.3.31</rdfs:comment>
-    <rdfs:label>OGC-NA tools</rdfs:label>
-    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
-    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"/>
-    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF"/>
-    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/beachedJF"/>
-    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/stingByJF"/>
-    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/quantityOfJF"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <skos:prefLabel>Jellyfish abundance</skos:prefLabel>
-    <skos:definition>Observation of quantities and qualities of jellyfish swarm.</skos:definition>
-    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7437fbbab6484c0f9ef58c6a4d70ac05">
-    <prov:used rdf:nodeID="N86583a004d66429380934bfc03d58ae5"/>
-    <prov:used rdf:nodeID="N399907b7d72e4afa89ff578668091680"/>
-    <prov:used rdf:nodeID="N6f564499f7004d699fe17ab45c6c97c5"/>
-    <prov:used rdf:nodeID="N752e7d63baed42378963b2fb69a7a9fb"/>
-    <prov:used rdf:nodeID="N22c303d5fa934318b65b9d28409fca44"/>
-    <prov:used rdf:nodeID="Nf1cbc6b10d0e43a5a83124aff0570cf2"/>
-    <prov:used rdf:nodeID="N9a40e387eaa34b25a9d9d5b977bf7748"/>
-    <prov:used rdf:nodeID="Na90e131f44b44341950ce55ce81b0fff"/>
-    <prov:used rdf:nodeID="Nf3e13322dd7b4e398be095b8090b585b"/>
-    <prov:used rdf:nodeID="Na2525b50106049ecb8a61e8d4295a0dc"/>
+  <rdf:Description rdf:nodeID="N5ec2f49aff904b2dae12b933491e57da">
+    <prov:used rdf:nodeID="N9cf8a5f4247b4e55844e3348c08006f3"/>
+    <prov:used rdf:nodeID="N95e1d7969d934944ad6c4d29cc617a8c"/>
+    <prov:used rdf:nodeID="N813e13271281486e89cfdff4c28b422d"/>
+    <prov:used rdf:nodeID="N939927919ff8407986fdd61170e85a88"/>
+    <prov:used rdf:nodeID="N37feb5785aa14c629871d707f24b3789"/>
+    <prov:used rdf:nodeID="N5eede50c44d045349caae45b9f20554d"/>
+    <prov:used rdf:nodeID="N68dc1d59e333425b900674754d93402b"/>
+    <prov:used rdf:nodeID="Nb4520a870dd443d8bf3ca4c94968ed0d"/>
+    <prov:used rdf:nodeID="Nc8ff0fcbc8a647199adece049958ae7c"/>
+    <prov:used rdf:nodeID="Nd36129f5598048ed89b13237b4a79c67"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
     <rdfs:label>Entailment and validation</rdfs:label>
-    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-11T09:21:48.665724</prov:startedAtTime>
-    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-11T09:21:50.952802</prov:endedAtTime>
-    <prov:wasInformedBy rdf:nodeID="N6050947388254beba6bc535ea3f3d933"/>
-    <rdfs:comment>python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl,</rdfs:comment>
-    <prov:wasAssociatedWith rdf:nodeID="Nbd615a7681164b9eb3dffc1d356a2948"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property">
-    <dcterms:source rdf:resource="http://www.opengis.net/def/entities/bodies/ogcna"/>
-    <skos:prefLabel>Jellyfish-related observable properties</skos:prefLabel>
-    <ns1:collectionView rdf:resource="http://w3id.org/iliad/jellyfish/property/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/">
-    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
-    <skos:definition>Collection hierarchy for this ConceptScheme</skos:definition>
-    <dcterms:provenance>Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl</dcterms:provenance>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:prefLabel>Concepts in Jellyfish-related observable properties</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N86583a004d66429380934bfc03d58ae5">
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"/>
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dcterms:format>text/turtle</dcterms:format>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-13T08:34:45.467595</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-13T08:34:49.323138</prov:endedAtTime>
+    <prov:wasInformedBy rdf:nodeID="N1d18f2d4b8524d5290edfae9c2b498c1"/>
+    <rdfs:comment>python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m .gitignore,iliad-jf.ttl,</rdfs:comment>
+    <prov:wasAssociatedWith rdf:nodeID="Nbe4ac8e189fe44f6af8d0eba7c7a5aa9"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/densityOfJF">
-    <skos:definition>Visual impression of density of jellyfish individuals of the observed species</skos:definition>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF/None"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF/Some"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF/Many"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
     <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel>Jellyfish Density</skos:prefLabel>
-    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
+    <skos:definition>Visual impression of density of jellyfish individuals of the observed species</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/densityOfJF/Many">
     <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N57ae397c7ecd4ffb9fc1f7abc2457a96">
-    <dcterms:identifier>3e348e99-6624-44bd-b2e9-283d9207134f</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.rdf">
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dcterms:format>application/rdf+xml</dcterms:format>
-    <prov:wasGeneratedBy rdf:nodeID="N7437fbbab6484c0f9ef58c6a4d70ac05"/>
-    <prov:wasAttributedTo rdf:nodeID="Nbd615a7681164b9eb3dffc1d356a2948"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/beachedJF">
-    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition>TBD</skos:definition>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:definition>More individuals than easily counted.</skos:definition>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF"/>
     <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
-    <skos:prefLabel>Jellyfish Beached Count</skos:prefLabel>
+    <skos:prefLabel>Many</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbd615a7681164b9eb3dffc1d356a2948">
-    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
+  <rdf:Description rdf:nodeID="N1d18f2d4b8524d5290edfae9c2b498c1">
+    <dcterms:identifier>c4d4093e-8ed8-421a-a29d-014d25000315</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf02c1ad31d7a4ae6aad434ad6d308ce9">
+    <rdfs:comment>ogc.na.update_vocabs version 0.3.31</rdfs:comment>
+    <dcterms:hasVersion>0.3.31</dcterms:hasVersion>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
     <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
     <rdfs:label>OGC-NA tools</rdfs:label>
-    <rdfs:comment>ogc.na.update_vocabs version 0.3.31</rdfs:comment>
-    <dcterms:hasVersion>0.3.31</dcterms:hasVersion>
+    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N399907b7d72e4afa89ff578668091680">
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"/>
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dcterms:format>text/turtle</dcterms:format>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/densityOfJF/Some">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF"/>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:prefLabel>More than one</skos:prefLabel>
+    <skos:definition>Some, easily counted</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.ttl">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <prov:wasGeneratedBy rdf:nodeID="N2252d96feb994bb2afd02eca754ca9bb"/>
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <prov:wasAttributedTo rdf:nodeID="N6c2a8059884548f8a905633d17cc3518"/>
-    <dcterms:format>text/turtle</dcterms:format>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty">
+    <skos:definition>An abstract property relating to biodiversity</skos:definition>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <skos:topConceptOf rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <skos:prefLabel>Biodiversity</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/stingByJF">
-    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <skos:prefLabel>Jellyfish Sting Category</skos:prefLabel>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition>TBD</skos:definition>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
     <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
-    <skos:prefLabel>Jellyfish Sting Category</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na2525b50106049ecb8a61e8d4295a0dc">
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty">
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/stingByJF"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/beachedJF"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/quantityOfJF"/>
+    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/densityOfJF"/>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>Jellyfish abundance</skos:prefLabel>
+    <skos:definition>Observation of quantities and qualities of jellyfish swarm.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/quantityOfJF">
+    <skos:definition>Count of Jellyfish individuals of the observed species as visual estimate per m2</skos:definition>
+    <skos:prefLabel>Jellyfish Quantity</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd2eeec465874680af52737f96e0007e">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N6f564499f7004d699fe17ab45c6c97c5">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/beachedJF">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
+    <skos:prefLabel>Jellyfish Beached Count</skos:prefLabel>
+    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:definition>TBD</skos:definition>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N752e7d63baed42378963b2fb69a7a9fb">
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition>Collection hierarchy for this ConceptScheme</skos:definition>
+    <dcterms:provenance>Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl</dcterms:provenance>
+    <skos:prefLabel>Concepts in Jellyfish-related observable properties</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na85fd03093f14170bf959cfdabdff9ff">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.ttl">
+    <prov:wasAttributedTo rdf:nodeID="Nf02c1ad31d7a4ae6aad434ad6d308ce9"/>
+    <dcterms:format>text/turtle</dcterms:format>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <prov:wasGeneratedBy rdf:nodeID="N1d0ae87a6be546eebbc7a29c73f57259"/>
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N939927919ff8407986fdd61170e85a88">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N3e34299edc9842b9be27ecff3af6eea2">
+  <rdf:Description rdf:nodeID="N95e1d7969d934944ad6c4d29cc617a8c">
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"/>
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:format>text/turtle</dcterms:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.rdf">
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:format>application/rdf+xml</dcterms:format>
+    <prov:wasGeneratedBy rdf:nodeID="N5ec2f49aff904b2dae12b933491e57da"/>
+    <prov:wasAttributedTo rdf:nodeID="Nbe4ac8e189fe44f6af8d0eba7c7a5aa9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N813e13271281486e89cfdff4c28b422d">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd36129f5598048ed89b13237b4a79c67">
+    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31975b29333849c796dbe1d2018bb2e6">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9cf8a5f4247b4e55844e3348c08006f3">
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"/>
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:format>text/turtle</dcterms:format>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe4ac8e189fe44f6af8d0eba7c7a5aa9">
+    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
+    <rdfs:label>OGC-NA tools</rdfs:label>
+    <rdfs:comment>ogc.na.update_vocabs version 0.3.31</rdfs:comment>
+    <dcterms:hasVersion>0.3.31</dcterms:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb9962509cf04536bc68b4c6c1f41af9">
+    <dcterms:format>text/turtle</dcterms:format>
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl"/>
+    <dcterms:hasVersion>git:f13337e8c0981c45aae5bd69837d8f0f92b921cd</dcterms:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64d3457599ad466a9e1c220c01dd5929">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition>An abstract property relating to biodiversity</skos:definition>
-    <skos:inScheme rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <skos:narrower rdf:resource="http://w3id.org/iliad/jellyfish/property/jellyFishAbundanceProperty"/>
-    <skos:topConceptOf rdf:resource="http://w3id.org/iliad/jellyfish/property"/>
-    <skos:prefLabel>Biodiversity</skos:prefLabel>
+  <rdf:Description rdf:about="http://w3id.org/iliad/jellyfish/property">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:source rdf:resource="http://www.opengis.net/def/entities/bodies/ogcna"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/iliad/jellyfish/property/BiodiversityProperty"/>
+    <skos:prefLabel>Jellyfish-related observable properties</skos:prefLabel>
+    <ns1:collectionView rdf:resource="http://w3id.org/iliad/jellyfish/property/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf1cbc6b10d0e43a5a83124aff0570cf2">
+  <rdf:Description rdf:nodeID="N68dc1d59e333425b900674754d93402b">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N916f23d034534fddbad74bc21f4d4288">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57ddc193c8164058b15d1665ec85a07f">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4520a870dd443d8bf3ca4c94968ed0d">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf3e13322dd7b4e398be095b8090b585b">
+  <rdf:Description rdf:nodeID="N5eede50c44d045349caae45b9f20554d">
+    <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37feb5785aa14c629871d707f24b3789">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8ff0fcbc8a647199adece049958ae7c">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1098b9b9f9c14ea297bb200be42cb84c">
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl"/>
-    <dcterms:hasVersion>git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681</dcterms:hasVersion>
-    <dcterms:format>text/turtle</dcterms:format>
+  <rdf:Description rdf:nodeID="N2e3a6e2419b1491f8e2c5490cf28d53a">
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8505199360ae4d539f5910894da24565">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N22c303d5fa934318b65b9d28409fca44">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.opengis.net/def/entities/bodies/ogcna">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc6a1f79e23454018926d1a04930914b4">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6646231e7d6e4f789e41e1922093af3d">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9a40e387eaa34b25a9d9d5b977bf7748">
-    <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N15f59a7fcb73419c8c16368e9e051a22">
-    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0f3b6b5b3bb54ce58f5e6c35c47f3b78">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6050947388254beba6bc535ea3f3d933">
-    <dcterms:identifier>3e348e99-6624-44bd-b2e9-283d9207134f</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5b6a3f636c544e27a9ceacafbb28beea">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na90e131f44b44341950ce55ce81b0fff">
-    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  <rdf:Description rdf:nodeID="Nb029808bc4c94ca084ec8e85c290f9b9">
+    <dcterms:identifier>c4d4093e-8ed8-421a-a29d-014d25000315</dcterms:identifier>
   </rdf:Description>
 </rdf:RDF>

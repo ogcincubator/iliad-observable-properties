@@ -1,5 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix iliad-jf: <http://w3id.org/iliad/jellyfish/property/> .
+@prefix iliad-jf-density: <http://w3id.org/iliad/jellyfish/property/densityOfJF/> .
 @prefix ns1: <http://www.opengis.net/def/metamodel/ogc-na/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -9,39 +10,39 @@
 
 <https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/entailed/jellyfish/property.ttl> a prov:Entity ;
     dcterms:format "text/turtle" ;
-    dcterms:hasVersion "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681" ;
-    prov:wasAttributedTo _:N6c2a8059884548f8a905633d17cc3518 ;
+    dcterms:hasVersion "git:f13337e8c0981c45aae5bd69837d8f0f92b921cd" ;
+    prov:wasAttributedTo _:Nf02c1ad31d7a4ae6aad434ad6d308ce9 ;
     prov:wasGeneratedBy [ a prov:Activity ;
             rdfs:label "Entailment and validation" ;
-            rdfs:comment "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m iliad-jf.ttl," ;
-            prov:endedAtTime "2023-12-11T09:21:50.928814"^^xsd:dateTime ;
-            prov:startedAtTime "2023-12-11T09:21:48.665724"^^xsd:dateTime ;
+            rdfs:comment "python ogc.na.update_vocabs catalog.ttl --base-uri https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master --update --graph-store http://defs-dev.opengis.net:8061/fuseki-hosted/data -m .gitignore,iliad-jf.ttl," ;
+            prov:endedAtTime "2023-12-13T08:34:49.298794"^^xsd:dateTime ;
+            prov:startedAtTime "2023-12-13T08:34:45.467595"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
-                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl> ],
-                [ a prov:Entity ;
-                    dcterms:format "text/turtle" ;
-                    dcterms:hasVersion "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681" ;
-                    rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl> ],
+                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl> ],
                 [ a prov:Entity ;
                     rdfs:seeAlso <http://www.opengis.net/def/metamodel/profiles/skos_shared> ],
                 [ a prov:Entity ;
-                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl> ],
-                [ a prov:Entity ;
-                    dcterms:format "text/turtle" ;
-                    dcterms:hasVersion "git:7ec6ddcdca05044c7fb086aafa65cf1a3682f681" ;
-                    rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl> ],
-                [ a prov:Entity ;
                     rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl> ],
-                [ a prov:Entity ;
-                    rdfs:seeAlso <http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle> ],
-                [ a prov:Entity ;
-                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl> ],
                 [ a prov:Entity ;
                     rdfs:seeAlso <https://datashapes.org/dash.ttl> ],
                 [ a prov:Entity ;
-                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl> ] ;
-            prov:wasAssociatedWith _:N6c2a8059884548f8a905633d17cc3518 ;
-            prov:wasInformedBy [ dcterms:identifier "3e348e99-6624-44bd-b2e9-283d9207134f" ] ] .
+                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/owl2skos.entailments.ttl> ],
+                [ a prov:Entity ;
+                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl> ],
+                [ a prov:Entity ;
+                    rdfs:seeAlso <http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl> ],
+                [ a prov:Entity ;
+                    dcterms:format "text/turtle" ;
+                    dcterms:hasVersion "git:f13337e8c0981c45aae5bd69837d8f0f92b921cd" ;
+                    rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/catalog.ttl> ],
+                [ a prov:Entity ;
+                    dcterms:format "text/turtle" ;
+                    dcterms:hasVersion "git:f13337e8c0981c45aae5bd69837d8f0f92b921cd" ;
+                    rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/iliad-observable-properties/master/iliad-jf.ttl> ],
+                [ a prov:Entity ;
+                    rdfs:seeAlso <http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle> ] ;
+            prov:wasAssociatedWith _:Nf02c1ad31d7a4ae6aad434ad6d308ce9 ;
+            prov:wasInformedBy [ dcterms:identifier "c4d4093e-8ed8-421a-a29d-014d25000315" ] ] .
 
 iliad-jf: a skos:Collection ;
     dcterms:provenance "Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl" ;
@@ -56,12 +57,26 @@ iliad-jf:beachedJF a skos:Concept ;
     skos:inScheme <http://w3id.org/iliad/jellyfish/property> ;
     skos:prefLabel "Jellyfish Beached Count" .
 
-iliad-jf:densityOfJF a skos:Concept ;
+iliad-jf-density:Many a skos:Concept ;
     ns1:status <http://www.opengis.net/def/status/valid> ;
-    skos:broader iliad-jf:jellyFishAbundanceProperty ;
-    skos:definition "Visual impression of density of jellyfish individuals of the observed species" ;
+    skos:broader iliad-jf:densityOfJF ;
+    skos:definition "More individuals than easily counted." ;
     skos:inScheme <http://w3id.org/iliad/jellyfish/property> ;
-    skos:prefLabel "Jellyfish Density" .
+    skos:prefLabel "Many" .
+
+iliad-jf-density:None a skos:Concept ;
+    ns1:status <http://www.opengis.net/def/status/valid> ;
+    skos:broader iliad-jf:densityOfJF ;
+    skos:definition "No individuals present" ;
+    skos:inScheme <http://w3id.org/iliad/jellyfish/property> ;
+    skos:prefLabel "None" .
+
+iliad-jf-density:Some a skos:Concept ;
+    ns1:status <http://www.opengis.net/def/status/valid> ;
+    skos:broader iliad-jf:densityOfJF ;
+    skos:definition "Some, easily counted" ;
+    skos:inScheme <http://w3id.org/iliad/jellyfish/property> ;
+    skos:prefLabel "More than one" .
 
 iliad-jf:quantityOfJF a skos:Concept ;
     ns1:status <http://www.opengis.net/def/status/valid> ;
@@ -87,6 +102,16 @@ iliad-jf:BiodiversityProperty a skos:Concept ;
     skos:prefLabel "Biodiversity" ;
     skos:topConceptOf <http://w3id.org/iliad/jellyfish/property> .
 
+iliad-jf:densityOfJF a skos:Concept ;
+    ns1:status <http://www.opengis.net/def/status/valid> ;
+    skos:broader iliad-jf:jellyFishAbundanceProperty ;
+    skos:definition "Visual impression of density of jellyfish individuals of the observed species" ;
+    skos:inScheme <http://w3id.org/iliad/jellyfish/property> ;
+    skos:narrower iliad-jf-density:Many,
+        iliad-jf-density:None,
+        iliad-jf-density:Some ;
+    skos:prefLabel "Jellyfish Density" .
+
 iliad-jf:jellyFishAbundanceProperty a skos:Concept ;
     ns1:status <http://www.opengis.net/def/status/valid> ;
     skos:broader iliad-jf:BiodiversityProperty ;
@@ -104,7 +129,7 @@ iliad-jf:jellyFishAbundanceProperty a skos:Concept ;
     skos:hasTopConcept iliad-jf:BiodiversityProperty ;
     skos:prefLabel "Jellyfish-related observable properties" .
 
-_:N6c2a8059884548f8a905633d17cc3518 a prov:Agent,
+_:Nf02c1ad31d7a4ae6aad434ad6d308ce9 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dcterms:hasVersion "0.3.31" ;
