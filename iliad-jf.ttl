@@ -1,4 +1,5 @@
 @prefix iliad-jf: <http://w3id.org/iliad/jellyfish/property/> .
+@prefix iliad-jf-density: <http://w3id.org/iliad/jellyfish/property/densityOfJF/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://w3id.org/iliad/jellyfish/property> a skos:ConceptScheme ;
@@ -24,21 +25,21 @@ iliad-jf:densityOfJF
   skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
 
 
-iliad-jf:densityOfJF/Some 
+iliad-jf-density:Some 
  a skos:Concept ;
   skos:prefLabel "More than one" ;
   skos:broader iliad-jf:densityOfJF ;
   skos:definition "Some, easily counted" ;
   skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
 
-iliad-jf:densityOfJF/None 
+iliad-jf-density:None 
  a skos:Concept ;
   skos:prefLabel "None" ;
   skos:broader iliad-jf:densityOfJF ;
   skos:definition "No individuals present" ;
   skos:inScheme <http://w3id.org/iliad/jellyfish/property> .
 
-iliad-jf:densityOfJF/Many 
+iliad-jf-density:Many 
  a skos:Concept ;
   skos:prefLabel "Many" ;
   skos:broader iliad-jf:densityOfJF ;
